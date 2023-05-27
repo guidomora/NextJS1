@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import MainLayout from '@/components/Layouts/MainLayout'
+import MainLayout from '../components/Layouts/MainLayout'
 
 
 

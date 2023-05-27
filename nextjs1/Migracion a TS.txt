@@ -1,0 +1,6 @@
+Creamos el archivo tsconfig.ts
+Se rellena solo el archivo y hasta nos crea un archivo next-env.d.ts (variables de entorno)
+
+---- Archivos de Js a Ts -------
+
+1) Renombramos todos los archivo a .tsx

@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import MainLayout from '@/components/Layouts/MainLayout'
-import DarkLayout from '@/components/Layouts/DarkLayout'
+import MainLayout from '../components/Layouts/MainLayout'
+import DarkLayout from '../components/Layouts/DarkLayout' 
 
 
 

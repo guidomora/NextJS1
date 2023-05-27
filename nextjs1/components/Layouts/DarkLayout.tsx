@@ -1,5 +1,10 @@
+import { FC, PropsWithChildren } from "react"
 
-const DarkLayout = ({ children }) => {
+
+
+// FC se refiere a que es un functional component y le aclaramos que es una 
+// prop con childrens
+const DarkLayout: FC<PropsWithChildren> = ({ children }) => {
     return (
         <div style={{
             backgroundColor: "rgba(0,0,0,0.3)",

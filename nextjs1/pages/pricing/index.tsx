@@ -1,4 +1,4 @@
-import MainLayout from '@/components/Layouts/MainLayout';
+import MainLayout from '../../components/Layouts/MainLayout';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from "../../components/Layouts/Home.module.css"
