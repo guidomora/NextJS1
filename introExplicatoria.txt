@@ -1,0 +1,18 @@
+Es un framework para servir contenido estadico y generado desde el lado del servidor
+
+SSR server side rendering
+SSg ststic site generation
+CSR client side rendering
+ISR incremental static regeneration
+DR dynamic routing
+
+Como funciona una SPA: 
+1) usuario entra a la url el cual inicia la priomera solicitud(request)
+2) el servidor responde con una respuesta (response)
+3) Esa respuesta contiene toda la app o una gran parte de ella, usualmente es el html y referencias a otros archivos
+   necesarios
+4) la computadora cliente interpeta la rta y ahi viene nuestro contenido de react
+
+Que pasaria si la persona solo quiere ver el "About" de nuestr pag?
+Se carga todo el sitio igual, incluyendo modulos que nunca va a usar, aca entra next que solo va a cargar lo que
+necesite la persona.

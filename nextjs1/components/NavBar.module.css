@@ -1,0 +1,4 @@
+/* Creamos la clase y le decimos que esta clase es para los anchor tags */
+.navStyle a {
+    margin: 2px;
+}
