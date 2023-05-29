@@ -4,3 +4,6 @@ Se rellena solo el archivo y hasta nos crea un archivo next-env.d.ts (variables 
 ---- Archivos de Js a Ts -------
 
 1) Renombramos todos los archivo a .tsx
+2) hacemos las modificaciones de JS a TS
+3) modificamos el archivo hello en la carpeta api
+4) modificamos el archivo app.js 

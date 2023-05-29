@@ -28,7 +28,7 @@ export default function About() {
 // Sirve para que en vez de tener el MainLayout y el DarkLayout directamente
 // En el componente, lo tengamos en esta funcion.
 // Le decimos a next que ejecute esta funcion en _app.js
-About.getLayout = function getLayout(page) {
+About.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>

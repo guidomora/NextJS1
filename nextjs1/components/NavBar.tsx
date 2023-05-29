@@ -29,11 +29,13 @@ const NavBar = () => {
     },
   ];
 
+
   return (
     <nav className={navEstilo.navStyle}>
       {/* En vez de hacer todo manual, lo hacemos "semi-dinamico" ya que solo
       creamos un ActiveLink y le pasamos las propiedades desestructuradas del
       menuItems */}
+
 
       {menuItems.map(({ text, href }) => (
         <ActiveLink key={text} text={text} href={href}></ActiveLink>
