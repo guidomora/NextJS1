@@ -1,0 +1,22 @@
+1) creamos archivo .dockerignore
+2) en ese archivo ignoramos los archivos que no queramos que sean parte de la imagen
+3) creamos el archivo Dockerfile, son comandos para crear la imagen
+4) nos aseguramos que docker desktop este corriendo en nuestra pc
+5) ejecutamos en la consola: docker build -t nombreAdarle .
+6) tarda varios segundos, vemos como se van ejecutando los pasos
+7) si vamos a las imagenes en docker desktop vamos a ver que esta el proyecto
+
+
+Levantar la imagen de docker:
+
+Se puede hacer desde la consola o desde docker desktop
+
+1) ejecutamos en la consola: docker run --name=next-app -p 3000:3000 nextjs-initial 
+2)                                                     puerto de mi pc    nombre de la imagen
+3) esto nos levanta la aplicacion y la vamos a ver corriendo
+4) en docker desktop si le damos run tambien nos levanta la app
+5) para reducir el peso, copiamos el codigo de fernando que es la instalacion recomendada del
+    equipo de docker para generar esa imagen
+6) borramos desde docker desktop el build que habiamos hecho antes
+7) ejecutamos en la consola: docker build -t nombreAdarle .     esta vez va a ser mas rapido
+8) tuvimos que cambiar unas cositas porque fernando usa yarn y yo npm
